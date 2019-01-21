@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestBrowserMobProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="72" lean-forward="true" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+            <state relative-caret-position="254">
+              <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +29,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/lightbody/bmp/mitm/2.1.5/mitm-2.1.5.jar!/net/lightbody/bmp/mitm/RootCertificateGenerator.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestChromeDebug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+            <state relative-caret-position="-225">
+              <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -127,10 +139,6 @@
             </path>
             <path>
               <item name="seleniumsniffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="seleniumsniffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -143,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548059791763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548064428497" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,10 +174,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBrowserMobProxy.test">
+  <component name="RunManager" selected="JUnit.TestBrowserMobProxy">
     <configuration name="TestChromeDebug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestChromeDebug" />
       <module name="CaptureTraffic_debugmodeANDbrowsermob" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBrowserMobProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CaptureTraffic_debugmodeANDbrowsermob" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBrowserMobProxy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBrowserMobProxy" />
         <item itemvalue="JUnit.TestBrowserMobProxy.test" />
         <item itemvalue="Application.TestChromeDebug" />
       </list>
@@ -211,20 +228,11 @@
       <workItem from="1548054547045" duration="197000" />
       <workItem from="1548054796708" duration="145000" />
       <workItem from="1548054988345" duration="406000" />
-      <workItem from="1548055556270" duration="1919000" />
+      <workItem from="1548055556270" duration="4416000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBrowserMobProxy_test - 2019.01.21 at 10h 22m 51s.xml">
-      <configuration name="TestBrowserMobProxy.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBrowserMobProxy_test - 2019.01.21 at 10h 31m 35s.xml">
-      <configuration name="TestBrowserMobProxy.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBrowserMobProxy_test - 2019.01.21 at 11h 26m 21s.xml">
-      <configuration name="TestBrowserMobProxy.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBrowserMobProxy_test - 2019.01.21 at 11h 27m 17s.xml">
       <configuration name="TestBrowserMobProxy.test" configurationId="JUnit" />
     </history-entry>
@@ -246,15 +254,24 @@
     <history-entry file="TestBrowserMobProxy_test - 2019.01.21 at 11h 34m 00s.xml">
       <configuration name="TestBrowserMobProxy.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBrowserMobProxy - 2019.01.21 at 11h 53m 24s.xml">
+      <configuration name="TestBrowserMobProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBrowserMobProxy - 2019.01.21 at 12h 50m 42s.xml">
+      <configuration name="TestBrowserMobProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBrowserMobProxy - 2019.01.21 at 12h 54m 45s.xml">
+      <configuration name="TestBrowserMobProxy" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9155000" />
+    <option name="totallyTimeSpent" value="11652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="33" width="2054" height="1122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26223776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26223776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,16 +281,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21538462" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20180723" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25301206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.251004" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30220884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32831326" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,11 +314,22 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestBrowserMobProxy.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>entries.get(14).request.postData.text</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver.manage().logs().get(&quot;perfomance&quot;);</expression-string>
         <language-id>JAVA</language-id>
@@ -332,16 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestChromeDebug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="60" column="66" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="60" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -367,13 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -454,10 +465,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestChromeDebug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestBrowserMobProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="72" lean-forward="true" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+        <state relative-caret-position="254">
+          <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

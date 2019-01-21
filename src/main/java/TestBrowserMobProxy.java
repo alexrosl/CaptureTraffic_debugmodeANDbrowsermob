@@ -1,4 +1,3 @@
-package com.dotdash.sample;
 import java.io.File;
 import java.io.IOException;
 import java.net.Inet4Address;
@@ -44,7 +43,11 @@ public class TestBrowserMobProxy {
         proxy.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT,
                                     CaptureType.RESPONSE_CONTENT,
                                     CaptureType.REQUEST_BINARY_CONTENT,
-                                    CaptureType.RESPONSE_BINARY_CONTENT);
+                                    CaptureType.RESPONSE_BINARY_CONTENT,
+                                    CaptureType.REQUEST_HEADERS,
+                                    CaptureType.RESPONSE_HEADERS,
+                                    CaptureType.REQUEST_COOKIES,
+                                    CaptureType.RESPONSE_COOKIES);
 
         proxy.newHar(); // creating new HAR
 
