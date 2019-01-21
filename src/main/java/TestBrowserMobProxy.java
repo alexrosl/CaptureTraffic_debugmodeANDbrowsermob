@@ -20,6 +20,8 @@ import net.lightbody.bmp.BrowserMobProxy;
 import net.lightbody.bmp.BrowserMobProxyServer;
 import net.lightbody.bmp.client.ClientUtil;
 import net.lightbody.bmp.core.har.HarEntry;
+
+
 public class TestBrowserMobProxy {
 
     String sFileName = "/home/alexey/Dev/Selenium/CaptureTraffic_Selenium_debugmode/output/harfile.har";
@@ -36,15 +38,23 @@ public class TestBrowserMobProxy {
 
 
         capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+//        capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
         WebDriver driver = new ChromeDriver(capabilities);
 
-        proxy.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT, CaptureType.RESPONSE_CONTENT, CaptureType.REQUEST_BINARY_CONTENT, CaptureType.RESPONSE_BINARY_CONTENT);
+        proxy.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT,
+                                    CaptureType.RESPONSE_CONTENT,
+                                    CaptureType.REQUEST_BINARY_CONTENT,
+                                    CaptureType.RESPONSE_BINARY_CONTENT);
 
         proxy.newHar(); // creating new HAR
 
-        driver.get("http://www.google.com");
-        driver.findElement(By.name("q")).sendKeys("find me");
-        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+        driver.get("https://petstore.swagger.io");
+        Thread.sleep(5000);
+        driver.findElement(By.cssSelector("#operations-pet-addPet > div.opblock-summary.opblock-summary-post")).click();
+        driver.findElement(By.cssSelector("#operations-pet-addPet > div:nth-child(2) > div > div.opblock-section > div.opblock-section-header > div.try-out > button")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.cssSelector("#operations-pet-addPet > div:nth-child(2) > div > div.execute-wrapper > button")).click();
+
 
         Har har = proxy.getHar();
 
